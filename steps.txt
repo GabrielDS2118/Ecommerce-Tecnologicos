@@ -49,3 +49,12 @@
     - Hacer un array en .eslintrc.json
     - Hacer una plantilla inicial del Home en pages/index.js
 
+5. Agregar estilos a la plantilla inicial del home
+    - Ir a styles:
+        Eliminar Home.module.css
+        Ir al repositorio de github y copiar los estilos glabals.css
+    
+    - Asegurarse que en pages/_app.js este la importacion de los estilos globales
+    - Poner algunas classNames a los div en nuestra plantilla inicial del Home en pages/index.js
+
+
