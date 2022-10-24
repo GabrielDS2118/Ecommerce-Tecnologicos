@@ -1,0 +1,30 @@
+1.Iniciando
+
+    - Iniciar proyecto de next:
+        npx create-next-app
+        Nombre proyecto: ecommerccetecnologicos
+    
+    - Instalacion de dependencias
+        Ir al repositorio https://github.com/adrianhajdin/ecommerce_sanity_stripe
+        Copiar las dependencias que hagan falta (package.json)
+        Instalar: npm install --legacy-peer-deps
+    
+    - Lanzar servidor
+        npm run dev
+
+2. Configurar sanity
+
+    Instalar globalmente: npm install -g @sanity/cli
+
+    Logearse: sanity init --coupon javascriptmastery2022
+
+    Ver en los recursos las otras configuraciones hechas por terminal
+
+    En .gitignore:
+        En dependencies: 
+            Quitar el / de /.nodemodules
+            Poner .env
+    
+    Ver schemas:
+        Entrar a la carpeta de sanity (ecommercetech)
+        Comando: sanity start
