@@ -57,4 +57,14 @@
     - Asegurarse que en pages/_app.js este la importacion de los estilos globales
     - Poner algunas classNames a los div en nuestra plantilla inicial del Home en pages/index.js
 
+6. Crear plantillas de componentes
+
+    - Hacer carpeta components:
+         Incluir todos los componentes
+         Archivo index.js que sirve para las exportaciones
+
+    - Incluir el preset @babel/preset-react en .babelrc y quitar "next/babel"
+    - Importar react en _app.js
+    - Importar e incluir los componentes HeroBanner y FooterBanner
+
 
