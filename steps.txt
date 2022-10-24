@@ -39,3 +39,13 @@
     - Ir a localhost:3333/desk y comprabar la creacion de los schemas
     - Crear un producto
         Recursos -> https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjNJeDJ5ZThnZWk4d3R1OWJnNFduX2t2cGhDd3xBQ3Jtc0tuUlpFeDlETmRZaTZRRUhMbmdVam9xa1JUelBoU1JKSDVVMmRRaXhfeDJUc1F6M3I2b1ZqeG5Sa2d0SDEzNmZ2V18wQ3dqUEl0M2NKdHd1Z0s5S29BLU1YVktmRkExaFBiYmU0Ql9ob3p5U3BsV0lhYw&q=https%3A%2F%2Fminhaskamal.github.io%2FDownGit%2F%23%2Fhome%3Furl%3Dhttps%3A%2F%2Fgithub.com%2Fadrianhajdin%2Fecommerce_sanity_stripe%2Ftree%2Fmain%2Fpublic%2Fassets&v=4mOkFXyxfsU
+
+4. Primeros pasos en la página principal(pages/index.js)
+
+    - Borrar todo lo que hay en pages/index.js
+    - Escribir rafce (shorcut que importa react y además crea el componente index)
+      Asegurarse que se tiene el plugin necesario para usar este shorcut(es7 snippets)
+    - Crear aarchivo .babelrc
+    - Hacer un array en .eslintrc.json
+    - Hacer una plantilla inicial del Home en pages/index.js
+
