@@ -95,6 +95,16 @@
         Componente HeroBanner:
             Mostrar la informacion del producto almacenado en sanity
 
+8.Componente Product
+
+    Mostrar primera imagen,nombre y precio toda esta informacion esta envuelta en una etiqueta Link
+    la cual direcciona al detalle de cada producto por medio del slug.current
+
+    Crear más productos en sanity http://localhost:3333/desk/product;6a9d3cd8-5a28-4d9f-96ea-6732583aa45d%2Ctemplate%3Dproduct
+
+
+
+
         
 
 
