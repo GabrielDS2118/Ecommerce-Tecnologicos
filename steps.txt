@@ -107,3 +107,19 @@
 9.FooterBanner
 
     Mostrar el producto que aparece en el banner,mostrar su imagen y textos
+
+10. Layout
+
+    Componente Layout(recibe como parametro un childre)
+
+        header
+        main: Dentro del main va el children 
+        footer
+    
+    pages/_app.js:
+        Especificar que el children son los componentes,dentro del main ira por ejemplo los productos
+        y el footerBanner
+
+
+
+

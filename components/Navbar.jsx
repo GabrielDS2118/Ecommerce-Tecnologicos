@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navbar = () => {
-  const { showCart, setShowCart, totalQuantities } = useStateContext();
+  // const { showCart, setShowCart, totalQuantities } = useStateContext();
 
   return (
     <div className="navbar-container">
