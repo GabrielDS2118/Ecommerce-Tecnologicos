@@ -67,4 +67,34 @@
     - Importar react en _app.js
     - Importar e incluir los componentes HeroBanner y FooterBanner
 
+7. HeroBanner y coneccion a sanity
+
+    Coneccion a sanity:
+    
+        - Ir a https://www.sanity.io/manage/personal/project/ek8u5wxy
+            Copiar ProjectID
+            Crear un token (name: desarrollogreat) y copiarlo
+        
+        - Guardar token en archivo .env
+
+        - Crear archivo lib/client.js
+            Pegar PojectID y llamar el token 
+        
+        - En pages/index.js:
+            Importar client de lib/client
+            Hacer función getServerSideProps
+
+    HeroBanner
+
+        Ir a http://localhost:3333/desk/banner;f02d6008-947e-47c7-9233-2a9c8ed75e11%2Ctemplate%3Dbanner
+            Crear un producto en banner
+
+        Acceder al producto creado desde la app
+            Hacer un console.log() en pages/index.js
+        
+        Componente HeroBanner:
+            Mostrar la informacion del producto almacenado en sanity
+
+        
+
 
