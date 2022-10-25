@@ -104,7 +104,6 @@
 
 
 
+9.FooterBanner
 
-        
-
-
+    Mostrar el producto que aparece en el banner,mostrar su imagen y textos
