@@ -120,6 +120,15 @@
         Especificar que el children son los componentes,dentro del main ira por ejemplo los productos
         y el footerBanner
 
+11. NavBar y Footer
+
+    Componente NavBar:
+        Mostrar en el lado derecho el nombre de la empresa y en lado izquierdo el icono de shopping 
+        con una cantidad
+    
+    Comoponente Footer:
+        Mostrar iconos de instagram y twitter y todos los derechos reservados
+
 
 
 
