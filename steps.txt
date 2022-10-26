@@ -129,6 +129,18 @@
     Comoponente Footer:
         Mostrar iconos de instagram y twitter y todos los derechos reservados
 
+12.Detalle de producto
+
+    pages/product/[slug].js:
+        Hace una consulta a la API para buscar el producto por medio de su slug
+        Por cada producto mostrar:
+            nombre
+            Estrellas
+            precio
+            Quantity
+            Botones: Add to Cart, Buy Now
+            Las otras imagenes del producto
+
 
 
 
