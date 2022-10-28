@@ -141,6 +141,17 @@
             Botones: Add to Cart, Buy Now
             Las otras imagenes del producto
 
+13.Context
+    context/StateContext.js:
 
+        Cantidad de unidades
+        Precio Total
 
+    Compartir el contexto en toda la aplicaación en el archivo pages/_app.js
 
+    Aplicar el contexto en: 
+        pages/product/[slug].js
+        components/NavBar
+        componente/cart
+
+14.Implementar Pagos
